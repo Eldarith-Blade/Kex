@@ -1,0 +1,16 @@
+{
+  "name": "cookiexample",
+  "version": "1.0.0",
+  "description": "Cookie website for project, demonstrating knowledge of Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Ovenden",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.0.2",
+    "jsdoc": "^3.6.3",
+    "npm": "^6.13.2"
+  }
+}

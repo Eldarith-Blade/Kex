@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Register</title>
+    <link href="main.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="realTimeClock"></div>
+    <div id="color-picker-container"></div>
+    <div class="overlay"></div>
+    <div class="contentUpdate">
+      <div class="register registerContainer">
+        <h1 class="register">Register</h1>
+        <div class=" register textContainer">
+          <input class="register email" type="text" name="" value="" placeholder="Username (example: Eldarith)">
+        </div>
+
+        <div class="register textContainer">
+          <input class="register pwd" type="password" placeholder="Password">
+        </div>
+
+        <input class="btn register btn_submit_register" type="button" value="Register">
+      </div>
+    </div>
+
+    <div class="navigation">
+      <h1 class="loginNavigation">Login<h1>
+      <h1 class="registerNavigation">Register<h1>
+    </div>
+
+    <div class="menuFont">
+      <select class="fontStyle">
+                        <option value="Sans Ref">Sans ref</option>
+                        <option value="Arial">Arial</option>
+                        <option value="Roboto">Roboto</option>
+                        <option value="Lucida Console">Lucida Console</option>
+                        <option value="Impact">Impact</option>
+                        <option value="Gadget">Gadget</option>
+     </select>
+    </div>
+
+    <div class="menu">
+      <input type="button" class="col_btn" value="Colour Picker">
+      <input type="button" class="menu_item randomise" value="Randomise">
+      <input type="button" class="menu_item close" value="Close">
+      <input type="button" class="menu_item reset" value="Reset">
+    </div>
+    <script src="./scripts/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iro-transparency-plugin/dist/iro-transparency-plugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js"></script>
+  </body>
+</html>
