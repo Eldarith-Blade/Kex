@@ -26,6 +26,15 @@ url("Background_Test02.jpg");
   background-color: #1A1B1D77; /* Black background with opacity */
   z-index: -1;
 }
+#hex-value {
+  position: absolute; 
+  color: #ffffff;
+  font-size: 25px;
+  text-transform: uppercase; 
+  opacity: 0; 
+  top: 46vh; 
+  left: 8vw; 
+}
 .registerContainer, .loginContainer {
   position: absolute;
   top: 35vh;

@@ -9,10 +9,13 @@
     <script defer src="main.js"></script>
   </head>
   <body>
+    <!--Digital clock is displayed within this div-->
     <div class="realTimeClock"></div>
+    <!--Colour picker and value is made visible through this div-->
+    <div id="hex-value"></div>
     <div id="color-picker-container"></div>
+    <!--Overlayed on the background to provide colour customisation-->
     <div class="overlay"></div>
-    <div class="contentUpdate">
       <div class="register registerContainer">
         <h1 class="register">Register</h1>
         <div class=" register textContainer">
@@ -49,7 +52,8 @@
       <input type="button" class="menu_item close" value="Close">
       <input type="button" class="menu_item reset" value="Reset">
     </div>
-    <script src="./scripts/gsap.min.js"></script>
+    
+    <!--Dependencies for colour picker-->
     <script src="https://cdn.jsdelivr.net/npm/iro-transparency-plugin/dist/iro-transparency-plugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js"></script>
   </body>
