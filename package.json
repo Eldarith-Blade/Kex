@@ -9,7 +9,7 @@
   "author": "Peter Ovenden",
   "license": "MIT",
   "dependencies": {
-    "gsap": "^3.0.2",
+    "gsap": "^3.6.0",
     "jsdoc": "^3.6.3",
     "npm": "^6.13.2"
   }
